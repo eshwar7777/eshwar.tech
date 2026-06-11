@@ -1,0 +1,17 @@
+At a high level, an LLM is just a transformer trained on a massive amount of text. We’re talking about data from books, websites, code, and more often hundreds of billions or even trillions of tokens.
+And the goal during training?
+Surprisingly simple.
+The model learns by trying to predict the next token.
+That’s it.
+It sounds almost too basic to be powerful.
+But when you repeat this process across trillions of examples, something interesting happens.
+The model starts picking up patterns in language. It learns how sentences are structured, how ideas connect, and even how reasoning flows. Over time, this begins to look a lot like understanding even though it’s really just pattern learning at a massive scale.
+That’s why these models can do things like:
+writing code, answering questions, translating languages, or explaining complex topics even if they were never explicitly trained for those exact tasks.
+The “large” in large language model refers to the number of parameters.
+hese are the internal values the model learns during training and modern models have hundreds of billions of them.
+Training something at that scale isn’t cheap. It takes massive compute and often costs millions of dollars.
+But the result is a system that can generalize across a wide range of problems and generate surprisingly useful outputs.
+So when you use tools like ChatGPT, Claude, or Gemini…
+you’re really interacting with a model that learned language by doing one simple thing
+over and over again predicting what comes next.
